@@ -75,6 +75,7 @@
           <th style="text-align: center;">Clean (Ch. 0)</th>
           <th style="text-align: center;">FaSNet</th>
           <th style="text-align: center;">EaBNet</th>
+		  <th style="text-align: center;">McNet</th>
           <!-- 继续添加其他表头描述 -->
         </tr>
         
@@ -111,19 +112,7 @@
 			  </audio>
 			</div>
 		  </td>
-		</tr>
-		
-		<tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-		  <th style="text-align: center;">McNet</th>
-		  <th style="text-align: center;">DeFT-AN</th>
-		  <th style="text-align: center;">CTFTSUNet</th>
-		  <th style="text-align: center;">DTMSE</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-		  
-		<tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+
 		  <td>
 			<div style="display: flex; flex-direction: column; align-items: center;">
 			  <audio controls style="width: 330px; margin-bottom: 10px;">
@@ -131,7 +120,20 @@
 			  </audio>
 			</div>
 		  </td>
+		</tr>
+		
+		<tr>
+          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+		  <th style="text-align: center;">DeFT-AN</th>
+		  <th style="text-align: center;">SGMSE</th>
+		  <th style="text-align: center;">StoRM</th>
+		  <th style="text-align: center;">SGMSE+</th>
+		  <th style="text-align: center;">DTMSE</th>
+          <!-- 继续添加其他表头描述 -->
+        </tr>
 		  
+		<tr>
+		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
 		  <td>
 			<div style="display: flex; flex-direction: column; align-items: center;">
 			  <audio controls style="width: 330px; margin-bottom: 10px;">
@@ -143,7 +145,23 @@
 		  <td>
 			<div style="display: flex; flex-direction: column; align-items: center;">
 			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/CTFTSUNet/target_fileid_58.wav" type="audio/wav">
+				<source src="static/DTMSE/SGMSE/target_fileid_58.wav" type="audio/wav">
+			  </audio>
+			</div>
+		  </td>
+		  
+		  <td>
+			<div style="display: flex; flex-direction: column; align-items: center;">
+			  <audio controls style="width: 330px; margin-bottom: 10px;">
+				<source src="static/DTMSE/StoRM/target_fileid_58.wav" type="audio/wav">
+			  </audio>
+			</div>
+		  </td>
+
+		  <td>
+			<div style="display: flex; flex-direction: column; align-items: center;">
+			  <audio controls style="width: 330px; margin-bottom: 10px;">
+				<source src="static/DTMSE/SGMSE+/target_fileid_58.wav" type="audio/wav">
 			  </audio>
 			</div>
 		  </td>
@@ -165,309 +183,483 @@
 
 <!-- Audio Grid Section -->
 <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h4 class="title">Case 2</h4>
-      <table>
-        <!-- Repeat the row structure for the rest of the 35 audio files -->
+	<div class="hero-body">
+	  <div class="container">
+		<h4 class="title">Case 2</h4>
+		<table>
+		  <!-- Repeat the row structure for the rest of the 35 audio files -->
+  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
+			<th style="text-align: center;">Clean (Ch. 0)</th>
+			<th style="text-align: center;">FaSNet</th>
+			<th style="text-align: center;">EaBNet</th>
+			<th style="text-align: center;">McNet</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+		  
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/rirnoisy/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/clean/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/FaSNet/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/EaBNet/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/McNet/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">DeFT-AN</th>
+			<th style="text-align: center;">SGMSE</th>
+			<th style="text-align: center;">StoRM</th>
+			<th style="text-align: center;">SGMSE+</th>
+			<th style="text-align: center;">DTMSE</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+			
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DeFT/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/StoRM/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE+/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DTMSE/target_fileid_111.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  <!-- Repeat for other rows as needed -->
+		</table>      
+	  </div>
+	</div>
+  </section>
+  <!-- End Audio Grid Section -->
 
-        <tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-          <th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
-          <th style="text-align: center;">Clean (Ch. 0)</th>
-          <th style="text-align: center;">FaSNet</th>
-          <th style="text-align: center;">EaBNet</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-        
-        <tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/rirnoisy/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/clean/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/FaSNet/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/EaBNet/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		</tr>
-		
-		<tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-		  <th style="text-align: center;">McNet</th>
-		  <th style="text-align: center;">DeFT-AN</th>
-		  <th style="text-align: center;">CTFTSUNet</th>
-		  <th style="text-align: center;">DTMSE</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-		  
-		<tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/McNet/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/DeFT/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/CTFTSUNet/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/DTMSE/target_fileid_111.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-        </tr>
-        <!-- Repeat for other rows as needed -->
-      </table>      
-    </div>
-  </div>
-</section>
-<!-- End Audio Grid Section -->
-
-<!-- Audio Grid Section -->
+  <!-- Audio Grid Section -->
 <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h4 class="title">Case 3</h4>
-      <table>
-        <!-- Repeat the row structure for the rest of the 35 audio files -->
+	<div class="hero-body">
+	  <div class="container">
+		<h4 class="title">Case 3</h4>
+		<table>
+		  <!-- Repeat the row structure for the rest of the 35 audio files -->
+  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
+			<th style="text-align: center;">Clean (Ch. 0)</th>
+			<th style="text-align: center;">FaSNet</th>
+			<th style="text-align: center;">EaBNet</th>
+			<th style="text-align: center;">McNet</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+		  
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/rirnoisy/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/clean/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/FaSNet/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/EaBNet/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/McNet/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">DeFT-AN</th>
+			<th style="text-align: center;">SGMSE</th>
+			<th style="text-align: center;">StoRM</th>
+			<th style="text-align: center;">SGMSE+</th>
+			<th style="text-align: center;">DTMSE</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+			
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DeFT/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/StoRM/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE+/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DTMSE/target_fileid_136.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  <!-- Repeat for other rows as needed -->
+		</table>      
+	  </div>
+	</div>
+  </section>
+  <!-- End Audio Grid Section -->
 
-        <tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-          <th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
-          <th style="text-align: center;">Clean (Ch. 0)</th>
-          <th style="text-align: center;">FaSNet</th>
-          <th style="text-align: center;">EaBNet</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-        
-        <tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/rirnoisy/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/clean/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/FaSNet/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/EaBNet/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		</tr>
-		
-		<tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-		  <th style="text-align: center;">McNet</th>
-		  <th style="text-align: center;">DeFT-AN</th>
-		  <th style="text-align: center;">CTFTSUNet</th>
-		  <th style="text-align: center;">DTMSE</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-		  
-		<tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/McNet/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/DeFT/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/CTFTSUNet/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/DTMSE/target_fileid_136.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-        </tr>
-        <!-- Repeat for other rows as needed -->
-      </table>      
-    </div>
-  </div>
-</section>
-<!-- End Audio Grid Section -->
-
-<!-- Audio Grid Section -->
+  <!-- Audio Grid Section -->
 <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h4 class="title">Case 4</h4>
-      <table>
-        <!-- Repeat the row structure for the rest of the 35 audio files -->
+	<div class="hero-body">
+	  <div class="container">
+		<h4 class="title">Case 4</h4>
+		<table>
+		  <!-- Repeat the row structure for the rest of the 35 audio files -->
+  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
+			<th style="text-align: center;">Clean (Ch. 0)</th>
+			<th style="text-align: center;">FaSNet</th>
+			<th style="text-align: center;">EaBNet</th>
+			<th style="text-align: center;">McNet</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+		  
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/rirnoisy/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/clean/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/FaSNet/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/EaBNet/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/McNet/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">DeFT-AN</th>
+			<th style="text-align: center;">SGMSE</th>
+			<th style="text-align: center;">StoRM</th>
+			<th style="text-align: center;">SGMSE+</th>
+			<th style="text-align: center;">DTMSE</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+			
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DeFT/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/StoRM/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE+/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DTMSE/target_fileid_265.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  <!-- Repeat for other rows as needed -->
+		</table>      
+	  </div>
+	</div>
+  </section>
+  <!-- End Audio Grid Section -->
 
-        <tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-          <th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
-          <th style="text-align: center;">Clean (Ch. 0)</th>
-          <th style="text-align: center;">FaSNet</th>
-          <th style="text-align: center;">EaBNet</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-        
-        <tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/rirnoisy/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
+  <!-- Audio Grid Section -->
+<section class="hero is-small">
+	<div class="hero-body">
+	  <div class="container">
+		<h4 class="title">Case 5</h4>
+		<table>
+		  <!-- Repeat the row structure for the rest of the 35 audio files -->
+  
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">Reverberation+Noise (Ch. 0)</th>
+			<th style="text-align: center;">Clean (Ch. 0)</th>
+			<th style="text-align: center;">FaSNet</th>
+			<th style="text-align: center;">EaBNet</th>
+			<th style="text-align: center;">McNet</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
 		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/clean/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/rirnoisy/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/clean/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/FaSNet/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/EaBNet/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/McNet/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
 		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/FaSNet/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/EaBNet/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		</tr>
-		
-		<tr>
-          <th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
-		  <th style="text-align: center;">McNet</th>
-		  <th style="text-align: center;">DeFT-AN</th>
-		  <th style="text-align: center;">CTFTSUNet</th>
-		  <th style="text-align: center;">DTMSE</th>
-          <!-- 继续添加其他表头描述 -->
-        </tr>
-		  
-		<tr>
-		  <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td> 
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/McNet/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/DeFT/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/CTFTSUNet/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-		  
-		  <td>
-			<div style="display: flex; flex-direction: column; align-items: center;">
-			  <audio controls style="width: 330px; margin-bottom: 10px;">
-				<source src="static/DTMSE/DTMSE/target_fileid_276.wav" type="audio/wav">
-			  </audio>
-			</div>
-		  </td>
-        </tr>
-        <!-- Repeat for other rows as needed -->
-      </table>      
-    </div>
-  </div>
-</section>
-<!-- End Audio Grid Section -->
+		  <tr>
+			<th style="text-align: center; padding-right: 30px;"></th> <!-- 描述列 -->
+			<th style="text-align: center;">DeFT-AN</th>
+			<th style="text-align: center;">SGMSE</th>
+			<th style="text-align: center;">StoRM</th>
+			<th style="text-align: center;">SGMSE+</th>
+			<th style="text-align: center;">DTMSE</th>
+			<!-- 继续添加其他表头描述 -->
+		  </tr>
+			
+		  <tr>
+			<td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong> </strong></td>
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DeFT/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/StoRM/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+  
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/SGMSE+/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+			
+			<td>
+			  <div style="display: flex; flex-direction: column; align-items: center;">
+				<audio controls style="width: 330px; margin-bottom: 10px;">
+				  <source src="static/DTMSE/DTMSE/target_fileid_276.wav" type="audio/wav">
+				</audio>
+			  </div>
+			</td>
+		  </tr>
+		  <!-- Repeat for other rows as needed -->
+		</table>      
+	  </div>
+	</div>
+  </section>
+  <!-- End Audio Grid Section -->
 
 
   <footer class="footer">
